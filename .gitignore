@@ -1,0 +1,28 @@
+# ── Entornos virtuales ────────────────────────────────────────────
+.env
+.venv/
+venv/
+
+# ── Python cache ──────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Cookies y sesiones (NUNCA subir) ─────────────────────────────
+*_cookies.json
+browser_profile/
+
+# ── Logs ──────────────────────────────────────────────────────────
+*.log
+
+# ── Archivos de diagnóstico ───────────────────────────────────────
+form_inspect*.html
+form_inspect*.png
+
+# ── Resultados y checkpoints generados ───────────────────────────
+output/
+checkpoints/
+
+# ── Proxies ───────────────────────────────────────────────────────
+proxies/proxy_list.txt
